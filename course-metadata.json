@@ -1,0 +1,417 @@
+{
+  "id": "69210b454fe68ae47be879dc",
+  "title": "RAG VS MCP: A Comparative Study",
+  "description": "AI course compares RAG with MCP",
+  "learningObjectives": [
+    "Understand the concepts of RAG and MCP",
+    "Compare and distinguish between RAG and MCP",
+    "Apply RAG and MCP in practical AI problems",
+    "Evaluate the effectiveness of RAG and MCP in different scenarios"
+  ],
+  "finalProjectDetails": {
+    "overview": "Creating a report comparing RAG and MCP with real life examples",
+    "planningResources": [
+      "Outline of report",
+      "Blog posts on RAG and MCP",
+      "Research papers on RAG and MCP"
+    ],
+    "submissionInstructions": "Submit the final report as a PDF via the submission portal before the course end date",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "name": "Tammam Alwafai",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "remoteGithubUrl": "https://github.com/1992tw/rag-vs-mcp-a-comparative-study",
+  "createdAt": "2025-11-22T01:00:53.984Z",
+  "updatedAt": "2025-11-22T01:00:53.984Z",
+  "lessonCount": 4,
+  "lessonMetadata": [
+    {
+      "id": "69210b464fe68ae47be879e1",
+      "lessonNumber": 1,
+      "title": "Introduction to RAG and MCP",
+      "status": "complete",
+      "assignment": {
+        "title": "Comparative Study of RAG and MCP",
+        "objective": "Conduct a comparative analysis of RAG and MCP and demonstrate basic implementations.",
+        "expectedCapabilities": [
+          "Understand RAG and MCP mechanisms",
+          "Perform a basic RAG implementation",
+          "Conduct MCP logic formulation"
+        ],
+        "submissionInstructions": "Submit a document detailing your findings and implementations, including any code snippets.",
+        "tasks": [
+          {
+            "taskNumber": 1,
+            "title": "Document RAG Application",
+            "description": "Write a report comparing a simple retrieval-alleged generation model with traditional generation in terms of data relevance and output quality.",
+            "codeExample": "N/A",
+            "_id": "69210ba24fe68ae47be87a20"
+          }
+        ],
+        "instructions": [
+          {
+            "partNumber": 1,
+            "steps": [
+              {
+                "taskNumber": 1,
+                "title": "Document Retrieval and Generation using RAG",
+                "description": "Implement a simple RAG model using a retrieval method and a text generator to respond to a query.",
+                "codeExample": "# Simplified RAG-like approach code\nretriever = SimpleRetriever()\ngenerator = SimpleGenerator()\ndocuments = retriever.retrieve(query)\nresponse = generator.generate(documents)",
+                "_id": "69210ba24fe68ae47be87a1d"
+              }
+            ],
+            "_id": "69210ba24fe68ae47be87a1c"
+          },
+          {
+            "partNumber": 2,
+            "steps": [
+              {
+                "taskNumber": 1,
+                "title": "Multiple-Choice Question Design with MCP",
+                "description": "Create a model or algorithm that generates multiple-choice questions based on a given context.",
+                "codeExample": "# Basic MCP-like algorithm\nquestions = generate_questions(context)\nchoices = formulate_choices(questions)\nevaluate(choices)",
+                "_id": "69210ba24fe68ae47be87a1f"
+              }
+            ],
+            "_id": "69210ba24fe68ae47be87a1e"
+          }
+        ],
+        "checklist": [
+          "RAG code implemented",
+          "MCP design conceptualized",
+          "Comparison report written",
+          "Relevant sources cited"
+        ],
+        "checkForUnderstanding": [
+          {
+            "question": "What is the primary advantage of integrating retrieval with generation in AI models?",
+            "options": [
+              "Increased output length",
+              "Enhanced relevance and accuracy of responses",
+              "Faster computation speeds"
+            ],
+            "answer": "Enhanced relevance and accuracy of responses",
+            "_id": "69210ba24fe68ae47be87a1a"
+          },
+          {
+            "question": "What type of tasks are MCPs best suited for?",
+            "options": [
+              "Image processing",
+              "Educational testing and decision making",
+              "Speech synthesis"
+            ],
+            "answer": "Educational testing and decision making",
+            "_id": "69210ba24fe68ae47be87a1b"
+          }
+        ]
+      },
+      "subsections": [
+        {
+          "subsectionOrder": 1,
+          "title": "Overview of RAG (Retrieval-Augmented Generation)",
+          "content": "RAG is an AI model that enhances traditional generation models by integrating a retrieval mechanism. It essentially combines two neural networks: one for retrieval and another for generation. During operation, the retrieval network fetches relevant documents, and the generation network uses these documents to produce a coherent output. This method improves the response's accuracy and relevance.",
+          "videoUrl": "http://video.com/introToRAG",
+          "codeExamples": [
+            "# Example pseudocode for RAG inference\nretrieval_output = retrieve_documents(query)\ngenerated_output = generate_response(retrieval_output)"
+          ],
+          "externalLinks": [
+            "https://arxiv.org/abs/2005.11401"
+          ],
+          "quizzes": [
+            {
+              "question": "What two components make up RAG?",
+              "options": [
+                "Retrieval and Translation",
+                "Retrieval and Generation",
+                "Recognition and Generation"
+              ],
+              "answer": "Retrieval and Generation",
+              "_id": "69210ba24fe68ae47be87a13"
+            }
+          ],
+          "_id": "69210ba24fe68ae47be87a12"
+        },
+        {
+          "subsectionOrder": 2,
+          "title": "Overview of MCP (Multi-Choice Prompt)",
+          "content": "MCP involves using AI to generate multiple-choice prompts that can aid in decision making or educational testing. It is usually simpler than RAG as it frames problems in a structured format. MCP models create choices based on existing data patterns and can evaluate the correctness based on predefined criteria.",
+          "videoUrl": "http://video.com/introToMCP",
+          "codeExamples": [
+            "# Example pseudocode for MCP generation\nchoices = generate_multiple_choices(question, context)\nresult = evaluate_choices(choices)"
+          ],
+          "externalLinks": [
+            "https://www.example.com/mcp-research"
+          ],
+          "quizzes": [
+            {
+              "question": "What is the main function of MCP?",
+              "options": [
+                "Generate choices for questions",
+                "Reinforcement learning",
+                "Natural image generation"
+              ],
+              "answer": "Generate choices for questions",
+              "_id": "69210ba24fe68ae47be87a15"
+            }
+          ],
+          "_id": "69210ba24fe68ae47be87a14"
+        },
+        {
+          "subsectionOrder": 3,
+          "title": "Key Differences Between RAG and MCP",
+          "content": "1. RAG integrates retrieval with generation, suitable for tasks demanding content building with dynamic information.\n2. MCP focuses on generating structured prompts and outcomes, best used in scenarios where options are clear and limited.\n3. RAG typically requires more computation due to the retrieval phase, whereas MCP is more direct and less resource-intensive.",
+          "videoUrl": "http://video.com/differencesRAGvsMCP",
+          "codeExamples": [],
+          "externalLinks": [
+            "http://podcast.com/RAGvsMCP"
+          ],
+          "quizzes": [
+            {
+              "question": "Which method is more computationally intensive generally?",
+              "options": [
+                "RAG",
+                "MCP",
+                "Both are equal"
+              ],
+              "answer": "RAG",
+              "_id": "69210ba24fe68ae47be87a17"
+            }
+          ],
+          "_id": "69210ba24fe68ae47be87a16"
+        }
+      ],
+      "supplementalVideos": [
+        "http://video.com/RAGvsMCPIntro"
+      ],
+      "references": [
+        "https://arxiv.org/abs/2005.11401",
+        "https://www.example.com/mcp-research",
+        "http://podcast.com/RAGvsMCP"
+      ],
+      "podcastUrl": "http://podcast.com/RAGvsMCP",
+      "discussion": [
+        {
+          "title": "Discussing the Practical Applications of RAG and MCP",
+          "content": "Analyze real-world cases where RAG and MCP could be effectively utilized.",
+          "_id": "69210ba24fe68ae47be87a18"
+        },
+        {
+          "title": "Challenges in Implementing RAG and MCP",
+          "content": "Explore potential issues when implementing these models, such as data inefficiency or computational load.",
+          "_id": "69210ba24fe68ae47be87a19"
+        }
+      ]
+    },
+    {
+      "id": "69210b464fe68ae47be879e2",
+      "lessonNumber": 2,
+      "title": "Detailed Analysis of RAG and MCP",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    },
+    {
+      "id": "69210b464fe68ae47be879e3",
+      "lessonNumber": 3,
+      "title": "Comparing and Contrasting RAG and MCP",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    },
+    {
+      "id": "69210b464fe68ae47be879e4",
+      "lessonNumber": 4,
+      "title": "Advanced Applications of RAG and MCP",
+      "status": "complete",
+      "assignment": {
+        "title": "Building Advanced AI Solutions Using RAG and MCP",
+        "objective": "Apply RAG and MCP to solve complex AI problems.",
+        "expectedCapabilities": [
+          "Design complex RAG processes",
+          "Implement MCP efficiently",
+          "Compare and optimize RAG and MCP"
+        ],
+        "submissionInstructions": "Submit realistic use-case proposal and its working code implementations.",
+        "tasks": [
+          {
+            "taskNumber": 1,
+            "title": "Develop a Hybrid AI Model",
+            "description": "Combine RAG and MCP technologies to handle a complex AI task simulating a small scalable system.",
+            "codeExample": "N/A",
+            "_id": "69210ba44fe68ae47be87a30"
+          }
+        ],
+        "instructions": [
+          {
+            "partNumber": 1,
+            "steps": [
+              {
+                "taskNumber": 1,
+                "title": "Design a real-time data processing module",
+                "description": "Use RAG to handle and process real-time data from simulated sources.",
+                "codeExample": "function realTimeProcessingRAG(dataSource) {...}",
+                "_id": "69210ba44fe68ae47be87a2e"
+              },
+              {
+                "taskNumber": 2,
+                "title": "Create a dynamic decision-making code using MCP",
+                "description": "Implement dynamic decision-making logic in MCP based on health diagnostics data.",
+                "codeExample": "proc DynamicDecisionMCP(healthData) {...}",
+                "_id": "69210ba44fe68ae47be87a2f"
+              }
+            ],
+            "_id": "69210ba44fe68ae47be87a2d"
+          }
+        ],
+        "checklist": [
+          "RAG process designed",
+          "MCP process implemented",
+          "Comparison report generated",
+          "Performance optimization analyzed"
+        ],
+        "checkForUnderstanding": [
+          {
+            "question": "How can RAG be applied in real-time data scenarios?",
+            "options": [
+              "Static management",
+              "Real-time processing",
+              "Data archiving"
+            ],
+            "answer": "Real-time processing",
+            "_id": "69210ba44fe68ae47be87a2a"
+          },
+          {
+            "question": "Why use MCP in dynamic decision-making?",
+            "options": [
+              "For backward compatibility",
+              "For static data viewing",
+              "For dynamic real-time processing"
+            ],
+            "answer": "For dynamic real-time processing",
+            "_id": "69210ba44fe68ae47be87a2b"
+          },
+          {
+            "question": "What are hybrid systems?",
+            "options": [
+              "Systems using only RAG",
+              "Systems using only MCP",
+              "Systems leveraging both RAG and MCP"
+            ],
+            "answer": "Systems leveraging both RAG and MCP",
+            "_id": "69210ba44fe68ae47be87a2c"
+          }
+        ]
+      },
+      "subsections": [
+        {
+          "subsectionOrder": 1,
+          "title": "Advanced Functions in RAG and MCP",
+          "content": "Both RAG and MCP have evolved to handle complex AI applications. This section explores how these technologies handle:\n- Integrated neural network configurations\n- Dynamic data requests and processing\n- Efficiency in real-time decision-making processes",
+          "videoUrl": "http://video.com/advancedRAGandMCP",
+          "codeExamples": [
+            "// Example in RAG advanced application\nfunction enhancedRAGProcess() {...}\n\n// Example in MCP advanced application\nproc EnhancedMCPService() {...}"
+          ],
+          "externalLinks": [
+            "http://advancedragmcp.com"
+          ],
+          "quizzes": [
+            {
+              "question": "Which function is indicative of an RAG advanced application?",
+              "options": [
+                "enhancedRAGProcess",
+                "enhancedMCPService"
+              ],
+              "answer": "enhancedRAGProcess",
+              "_id": "69210ba44fe68ae47be87a24"
+            }
+          ],
+          "_id": "69210ba44fe68ae47be87a23"
+        },
+        {
+          "subsectionOrder": 2,
+          "title": "Use Cases: Comparing Advanced AI Implementations",
+          "content": "\nThis section covers various AI applications where RAG and MCP are pivotal:\n- Autonomous vehicles: Utilization of RAG for real-time traffic analysis\n- Health sector: MCP's role in patient diagnosis systems\n- Supply chain management: Comparing the efficiency of RAG and MCP in logistics.",
+          "videoUrl": "http://video.com/useCasesRAGMCP",
+          "codeExamples": [
+            "// Simulating an autonomous vehicle's sensory analysis using RAG\nfunction simulateTrafficAnalysis() {...}",
+            "// Using MCP in health data analysis\nproc HealthDataMCPProcess() {...}"
+          ],
+          "externalLinks": [
+            "http://usecasesragmcp.org"
+          ],
+          "quizzes": [
+            {
+              "question": "Which sector has seen significant advancements with RAG?",
+              "options": [
+                "Healthcare",
+                "Autonomous vehicles",
+                "Supply chain management"
+              ],
+              "answer": "Autonomous vehicles",
+              "_id": "69210ba44fe68ae47be87a26"
+            }
+          ],
+          "_id": "69210ba44fe68ae47be87a25"
+        },
+        {
+          "subsectionOrder": 3,
+          "title": "Future Prospects of RAG and MCP",
+          "content": "Examining the future potential of both technologies in evolving AI landscapes:\n- The shift towards hybrid systems leveraging both RAG and MCP\n- Scalability and adaptation to upcoming AI trends\n- The impact of emerging technologies on RAG and MCP efficiency",
+          "videoUrl": "http://video.com/futureProspectsRAGMCP",
+          "codeExamples": [],
+          "externalLinks": [
+            "http://futureragmcp.com"
+          ],
+          "quizzes": [
+            {
+              "question": "Which trend is shaping the future of RAG and MCP applications?",
+              "options": [
+                "Static systems",
+                "Hybrid systems",
+                "Singular networks"
+              ],
+              "answer": "Hybrid systems",
+              "_id": "69210ba44fe68ae47be87a28"
+            }
+          ],
+          "_id": "69210ba44fe68ae47be87a27"
+        }
+      ],
+      "supplementalVideos": [
+        "http://video.com/aimpcaseStudies"
+      ],
+      "references": [
+        "https://advancedragmcp.org/tutorials"
+      ],
+      "podcastUrl": "http://podcast.com/advancedRAGMCP",
+      "discussion": [
+        {
+          "title": "Integrating RAG and MCP for Future AI",
+          "content": "Discuss potential hybrid models combining strengths of RAG and MCP for futuristic AI applications.",
+          "_id": "69210ba44fe68ae47be87a29"
+        }
+      ]
+    }
+  ]
+}
